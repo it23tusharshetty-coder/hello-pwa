@@ -1,9 +1,8 @@
 const CACHE_NAME = 'hello-pwa-v1';
 const ASSETS = [
-'/',
-'/index.html',
-
-'[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)'
+  '/',
+  '/index.html',
+  'https://cdn.tailwindcss.com'
 ];
 // Install event: Cache essential files
 self.addEventListener('install', (event) => {
